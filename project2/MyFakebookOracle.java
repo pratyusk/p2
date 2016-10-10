@@ -165,13 +165,13 @@ public class MyFakebookOracle extends FakebookOracle {
             while (rst.next()) {
                 int commonCount = rst.getInt(1);
                 String commonName = rst.getString(2);
-                String mostCommonName = ""
-                int mostCommonCount = 0
+                String mostCommonName = "";
+                int mostCommonCount = 0;
                 if (rst.isFirst())
                 {
                     this.mostCommonFirstNames.add(commonName);
                     mostCommonName = commonName;
-                    mostCommonCount = commonCount
+                    mostCommonCount = commonCount;
                     this.mostCommonFirstNamesCount = mostCommonCount;
                 }
                 else
@@ -323,7 +323,7 @@ public class MyFakebookOracle extends FakebookOracle {
     }
 
     @Override
-    //	 ***** Query 9 *****
+    //   ***** Query 9 *****
     //
     // Find pairs of potential siblings.
     //
