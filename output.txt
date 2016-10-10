@@ -1,0 +1,38 @@
+>>>>>>>>>Query0>>>>>>>>>>
+800 users with month of birth information
+78 users in month of 8(most)
+[Hangvul SMITH(2), Elrond HARRIS(33), Sarah WILSON(53), Galadriel MARTIN(66), Denethor SMITH(82), Elrond SMITH(98), Pippin BROWN(100), Gimli BROWN(105), Pippin JONES(155), Elrond BROWN(168), Gimli HARRIS(169), Ella WILLIAMS(180), Biara THOMAS(184), Pippin ANDERSON(196), Gotai SMITH(206), Raelag MOORE(209), Lily MARTIN(212), Gandalf THOMPSON(214), Gimli MOORE(215), Brianna ANDERSON(217), Ylthin DAVIS(220), Aragorn SMITH(225), Theoden BROWN(234), Isabel SMITH(249), Denethor WILSON(266), Boromir WHITE(273), Hangvul MOORE(278), Ornella MARTIN(287), Grace SMITH(293), Lily JACKSON(303), Theoden MARTIN(304), Sauron JACKSON(328), Saruman MOORE(329), Arantir GARCIA(333), Wulfstan WHITE(336), Velaria THOMAS(351), Ylthin MOORE(368), Ashley MOORE(392), Denethor MILLER(425), Arantir MARTIN(430), Gandalf ANDERSON(435), Kujin WHITE(466), Velaria JACKSON(477), Shadya HARRIS(484), Sauron TAYLOR(504), Ylthin JACKSON(507), Arwen MARTIN(527), Hangvul MARTINEZ(545), Denethor ANDERSON(552), Gimli MILLER(566), Isabel JOHNSON(594), Raelag THOMAS(602), Freyda SMITH(614), Lily WILLIAMS(620), Raelag JONES(628), Biara SMITH(639), Elrond ANDERSON(641), Ella MARTIN(651), Hangvul ANDERSON(653), Isabel THOMPSON(661), Boromir TAYLOR(662), Aragorn BROWN(677), Gotai WILLIAMS(696), Brianna MILLER(705), Grace JONES(715), Freyda THOMPSON(718), Faramir WHITE(721), Kujin TAYLOR(739), Kujin HARRIS(745), Meriadoc WHITE(754), Biara WILLIAMS(761), Arantir JACKSON(763), Eowyn ANDERSON(765), Eowyn MARTIN(766), Aragorn JONES(767), Agrael TAYLOR(773), Saruman WHITE(780), Saruman JACKSON(786)]
+56 users in month of 1(least)
+[Isabel JONES(29), Gotai WILLIAMS(32), Sauron THOMAS(50), Agrael MOORE(52), Ylaya DAVIS(68), Legolas THOMAS(86), Denethor HARRIS(116), Sarah THOMPSON(142), Legolas MARTINEZ(148), Wulfstan THOMAS(152), Lily WILLIAMS(153), Boromir JONES(194), Zehir WILSON(207), Kujin JONES(208), Legolas ANDERSON(236), Zehir GARCIA(239), Arantir MARTINEZ(240), Shadya ANDERSON(244), Grace JONES(248), Shadya MILLER(308), Gandalf MARTINEZ(314), Frodo TAYLOR(349), Frodo JACKSON(350), Freyda WILSON(354), Saruman TAYLOR(355), Cyrus THOMAS(360), Brianna MARTIN(366), Frodo GARCIA(375), Gandalf JACKSON(402), Saruman WILLIAMS(449), Freyda WILSON(454), Ornella JACKSON(457), Arantir MOORE(467), Arantir GARCIA(473), Shadya JONES(479), Arwen WILSON(514), Aragorn WHITE(523), Brianna THOMPSON(528), Shadya JOHNSON(536), Kujin WILLIAMS(538), Boromir MOORE(550), Shadya HARRIS(557), Lily MILLER(563), Arwen JONES(579), Kujin THOMAS(597), Kujin TAYLOR(640), Ylaya JOHNSON(683), Raelag WHITE(685), Ylthin BROWN(690), Frodo MARTIN(700), Ella JOHNSON(701), Velaria JONES(731), Cyrus JONES(741), Legolas HARRIS(756), Galadriel WHITE(770), Gandalf WILLIAMS(798)]
+>>>>>>>>>Query1>>>>>>>>>>
+Longest first names are [JohnJacobJingleheimerSchmidt]
+Shortest first names are [Al, Bo, Jo]
+Most common first names are [Jane, John] - having 10 users for each
+>>>>>>>>>Query2>>>>>>>>>>
+Number of lonely users: 2
+Lonely users are [Billy SmellsFunny(10), Jenny BadBreath(11)]
+>>>>>>>>>Query3>>>>>>>>>>
+Number of users who live away from home: 1
+These users still live away from home [Heather Movalot(11)]
+>>>>>>>>>Query4>>>>>>>>>>
+The following are top 1 photos with the most tags
+(ID 1234567) from album album1 url(http://google.com)
+1 Tags
+[taggedUserFirstName1 taggedUserLastName1(12345)]
+>>>>>>>>>Query5>>>>>>>>>>
+Top 1 matches
+girlFirstName girlLastName(123) born in 1988, boyFirstName boyLastName(456) born in 1986
+They are not Fakebook friends and share 1 photos
+[(ID 12345678) from album albumName url(link)]
+>>>>>>>>>Query6>>>>>>>>>>
+User1FirstName User1LastName(123) User2FirstName User2LastName(456) are not Fakebook friends and they share 3 friends
+[sharedFriend1FirstName sharedFriend1LastName(567), sharedFriend2FirstName sharedFriend2LastName(678), sharedFriend3FirstName sharedFriend3LastName(789)]
+>>>>>>>>>Query7>>>>>>>>>>
+State/States with most events: [California, Michigan]
+Total events in each state: 12
+>>>>>>>>>Query8>>>>>>>>>>
+Oldest friend: Oliver Oldham(1)
+Youngest friend: Yolanda Young(25)
+>>>>>>>>>Query9>>>>>>>>>>
+1 pairs of siblings
+User1FirstName User1LastName(123) and User2FirstName User2LastName(456)
