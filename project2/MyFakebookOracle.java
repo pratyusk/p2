@@ -135,7 +135,7 @@ public class MyFakebookOracle extends FakebookOracle {
 
             // For each month, find the number of users born that month
             // Sort them in descending order of count
-            ResultSet rst = stmt.executeQuery("SELECT DISTINCT U.FIRST_NAME AS LONGEST_FIRST_NAME FROM " +
+            ResultSet rst1 = stmt.executeQuery("SELECT DISTINCT U.FIRST_NAME AS LONGEST_FIRST_NAME FROM " +
                     userTableName +
                     " U WHERE LENGTH(U.FIRST_NAME) = (SELECT MAX(LENGTH(U1.FIRST_NAME)) FROM " + userTableName + "  U1) ORDER BY U.FIRST_NAME");
 
@@ -147,27 +147,27 @@ public class MyFakebookOracle extends FakebookOracle {
             // this.mostCommonFirstNames.add("Jane");
             // this.mostCommonFirstNamesCount = 10;
 
-            while (rst.next()) {
-                this.longestFirstNames.add(rst.getString(1));
+            while (rst1.next()) {
+                this.longestFirstNames.add(rst1.getString(1));
             }
 
-            ResultSet rst = stmt.executeQuery("SELECT DISTINCT U.FIRST_NAME AS SHORTEST_FIRST_NAME FROM " +
+            ResultSet rst1 = stmt.executeQuery("SELECT DISTINCT U.FIRST_NAME AS SHORTEST_FIRST_NAME FROM " +
                     userTableName +
                     " U WHERE LENGTH(U.FIRST_NAME) = (SELECT MIN(LENGTH(U1.FIRST_NAME)) FROM " + userTableName + "  U1) ORDER BY U.FIRST_NAME");
-            while (rst.next()) {
-                this.shortestFirstNames.add(rst.getString(1));
+            while (rst1.next()) {
+                this.shortestFirstNames.add(rst1.getString(1));
             }
 
-            ResultSet rst = stmt.executeQuery("SELECT COUNT(*), U.FIRST_NAME AS MOST_COMMON_FIRST_NAME FROM " +
+            ResultSet rst1 = stmt.executeQuery("SELECT COUNT(*), U.FIRST_NAME AS MOST_COMMON_FIRST_NAME FROM " +
                     userTableName +
                     " U GROUP BY U.FIRST_NAME ORDER BY 1 DESC, U.FIRST_NAME");
 
-            while (rst.next()) {
-                int commonCount = rst.getInt(1);
-                String commonName = rst.getString(2);
+            while (rst1.next()) {
+                int commonCount = rst1.getInt(1);
+                String commonName = rst1.getString(2);
                 String mostCommonName = "";
                 int mostCommonCount = 0;
-                if (rst.isFirst())
+                if (rst1.isFirst())
                 {
                     this.mostCommonFirstNames.add(commonName);
                     mostCommonName = commonName;
@@ -184,7 +184,7 @@ public class MyFakebookOracle extends FakebookOracle {
             }
 
             // Close statement and result set
-            rst.close();
+            rst1.close();
             stmt.close();
         } catch (SQLException err) {
             System.err.println(err.getMessage());
