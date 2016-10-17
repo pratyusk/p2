@@ -4,7 +4,9 @@ JC = javac
 	$(JC) $*.java
 
 CLASSES = \
-	project2/FakebookOracle.java project2/MyFakebookOracle.java project2/TestFakebookOracle.java
+	project2/FakebookOracle.java \
+	project2/MyFakebookOracle.java \
+	project2/TestFakebookOracle.java
 
 default: classes
 
