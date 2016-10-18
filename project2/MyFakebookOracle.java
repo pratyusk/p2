@@ -379,7 +379,7 @@ public class MyFakebookOracle extends FakebookOracle {
             // Created views for not friends pairs and mutual friend pairs
             String getViewNotFriends = "CREATE OR REPLACE VIEW NOT_FRIENDS_MF_AGE_DIFF AS " + 
              "SELECT U1.USER_ID AS U1_ID, U2.USER_ID AS U2_ID FROM "
-             + userTableName + " U1, " + userTableName + " U2 WHERE ABS(U1.YEAR_OF_BIRTH - U2.YEAR_OF_BIRTH) <= 2 AND U1.GENDER = 'female' AND U2.GENDER = 'male' AND NOT EXISTS (SELECT F.USER1_ID FROM "
+             + userTableName + " U1, " + userTableName + " U2 WHERE ABS(U1.YEAR_OF_BIRTH - U2.YEAR_OF_BIRTH) <= " + yearDiff + " AND U1.GENDER = 'female' AND U2.GENDER = 'male' AND NOT EXISTS (SELECT F.USER1_ID FROM "
              + friendsTableName + " F WHERE F.USER1_ID = U1.USER_ID AND F.USER2_ID = U2.USER_ID)";
             String getViewPotentialCouples = "CREATE OR REPLACE VIEW POTENTIAL_COUPLE AS SELECT * FROM " + 
             "(SELECT NF.U1_ID AS PC_ID1, U1.FIRST_NAME AS PC_FN1, U1.LAST_NAME AS PC_LN1, U1.YEAR_OF_BIRTH AS PC_YOB1, " + 
